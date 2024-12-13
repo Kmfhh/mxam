@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الرقم الاول"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الرقم الثاني"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جمع"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ضرب"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تأكد من جوابك"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Enter Your Answer"
+        android:rotationX="-2"
+        tools:ignore="HardcodedText,TextFields" />
+
+</LinearLayout>
